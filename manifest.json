@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "2.1",
+  "description":"This chrome extension generates a random gif each time when user open a new tab",
+
+  "permissions":[
+    "tabs"
+  ],
+  "chrome_url_overrides":{
+    "newtab":"gifGenerator.html"
+  },
+  
+  "browser_action":{
+      "dafault_icon":"as.png",
+      "default_title":"Giffy!"
+      
+  }
+}
